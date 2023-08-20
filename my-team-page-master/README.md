@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">404 not found master</h1>
+<h1 align="center">My Team Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://404-not-found-dc.netlify.app/">
+    <a href="https://my-team-dc.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/varisDogukan/dev-challenges/tree/main/404-not-found-master">
+    <a href="https://{your-url-to-the-solution}">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
       Challenge
     </a>
   </h3>
@@ -41,10 +41,11 @@
 
 - HTML5
 - CSS3
+- JavaScript
 
 ## Features
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
 
 ## Contact
 

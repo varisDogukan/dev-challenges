@@ -1,0 +1,120 @@
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.max-container {
+  min-height: 100vh;
+  margin: 0 auto;
+  width: min(95%, 1140px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 71px 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+header {
+  width: 100%;
+  margin-bottom: 38px;
+}
+
+header h2 {
+  font-family: PT Serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -1.62px;
+  margin-bottom: 38px;
+}
+
+header h6 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-family: Poppins;
+  font-size: 18px;
+  max-width: 439px;
+}
+
+.teams {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 60px;
+  column-gap: 5px;
+}
+
+.card {
+  padding-right: 30px;
+}
+
+.card:nth-of-type(even) {
+  margin-top: 50px;
+}
+
+.img-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-family: Poppins;
+  font-size: clamp(15px, 3vw, 18px);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.title {
+  width: 130px;
+  position: absolute;
+  font-family: PT Serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  top: 60px;
+  right: -80px;
+  transform: rotate(90deg);
+}
+
+@media (min-width: 800px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 96px;
+  }
+
+  header h2 {
+    margin-bottom: 0;
+  }
+
+  .teams {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card:nth-of-type(even) {
+    margin-top: 0;
+  }
+
+  .card:nth-of-type(2) {
+    margin-top: 85px;
+  }
+
+  .card:nth-of-type(5) {
+    margin-top: 85px;
+  }
+}
