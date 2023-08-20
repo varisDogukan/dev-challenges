@@ -10,7 +10,7 @@ HTML5, CSS3 and Responsive
 
 ### My Team Page
 
-[Live Site](https://my-team-dc.netlify.app/) | [Github Repo](https://github.com/varisDogukan/dev-challenges/tree/main/404-not-found-master)
+[Live Site](https://my-team-dc.netlify.app/) | [Github Repo](https://github.com/varisDogukan/dev-challenges/tree/main/my-team-page-master)
 
 HTML5, CSS3 and Responsive
 
